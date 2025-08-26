@@ -24,7 +24,7 @@ torch.set_default_device('cpu')
 # Set page configuration
 st.set_page_config(
     page_title="GIKI GPT",
-    page_icon="logo.ico",
+    page_icon="🤖",
     layout="wide"
 )
 
@@ -364,4 +364,5 @@ def main():
         st.info("Upload and process documents to start chatting")
 
 if __name__ == "__main__":
+
     main()
