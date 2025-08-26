@@ -25,8 +25,8 @@ Before running this project, ensure you have:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/giki-gpt.git
-cd giki-gpt
+git clone https://github.com/zk405596-8986/Giki_Gpt.git
+cd Giki_Gpt
 ```
 
 ### 2. Install Ollama
@@ -70,19 +70,6 @@ pip install -r requirements.txt
 
 Create the Ollama config file:
 
-**Windows:**
-```cmd
-mkdir %USERPROFILE%\.ollama
-echo {"num_parallel": 4, "num_keep": 2, "num_gpu": 0} > %USERPROFILE%\.ollama\config.json
-```
-
-**Linux/Mac:**
-```bash
-mkdir -p ~/.ollama
-echo '{"num_parallel": 4, "num_keep": 2, "num_gpu": 0}' > ~/.ollama/config.json
-```
-
-**Configuration Explanation:**
 ```json
 {
   "num_parallel": 4,     // CPU threads to use
